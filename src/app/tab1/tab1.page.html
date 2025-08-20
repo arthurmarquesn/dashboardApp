@@ -1,17 +1,102 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <h1>Dashboard</h1>
+  <img class="perfil_img" src="../../assets/R.jpg" alt="">
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<div class="subir">
+<ion-card class="card1">
+  <ion-card-header>
+    <ion-card-subtitle class="subtexto">January</ion-card-subtitle>
+    <div class="valor">
+      <ion-card-title class="texto">$ 500</ion-card-title>
+      <ion-icon name="bar-chart-outline"></ion-icon> 
+    </div>
+    <ion-progress-bar value="0.7"></ion-progress-bar>
+    <div class="benga">
+      Daily spend target: $16,67
+    </div>
+    
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+  </ion-card-header>
+</ion-card>
+
+
+
+<div class="see">
+  <p >DAILY SPENDS</p>
+  <a href="">See all</a>
+</div>
+
+
+<ion-card class="card2">
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img class="imgs_card2" alt="Silhouette of mountains" src="../../assets/image.png" />
+        </ion-thumbnail>
+        <div class="info">
+          <div>
+            <p>Net Banking</p>
+            <p><strong>$365.89</strong></p>
+          </div>
+          <p class="desc">Today</p>
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img class="imgs_card2" alt="Silhouette of mountains" src="../../assets/justo.png" />
+        </ion-thumbnail>
+        <div class="info">
+          <div>
+            <p>Food & Drinks</p>
+            <p><strong>$165.99</strong></p>
+          </div>
+          <p class="desc">26 jan, 2019</p>
+        </div>
+      </ion-item>
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img class="imgs_card2" alt="Silhouette of mountains" src="../../assets/negro.png" />
+        </ion-thumbnail>
+        <div class="info">
+          <div>
+            <p>Clothers</p>
+            <p><strong>$65.09</strong></p>
+          </div>
+          <p class="desc">15 jan, 2019</p>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+
+<div class="see">
+  <p >WISHLIST</p>
+  <a href="">See all</a>
+</div>
+<div class="abrangente">
+  <div class="box1">
+    <ion-icon class="iconbtns" name="shirt"></ion-icon>
+    <h2>Tee</h2>
+  </div>
+
+  <div class="box2">
+    <ion-icon name="barbell"></ion-icon>
+    <h2>Gym</h2>
+  </div>
+
+  <div class="box3">
+    <ion-icon name="bicycle"></ion-icon>
+    <h2>Bike</h2>
+  </div>
+
+  <div class="box4">
+    <ion-icon name="cash"></ion-icon>
+    <h2>Saving</h2>
+  </div>
+</div>
+</div>
+
